@@ -1,0 +1,29 @@
+.contenedor {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.btnCarrito {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.btnCarrito:hover {
+    background-color: #1e242b;
+}
+
+.mensaje {
+    color: green;
+    margin-top: 10px;
+    font-weight: bold;
+}

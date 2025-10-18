@@ -1,0 +1,10 @@
+<div class="contenedor">
+    <h1>Agregar producto</h1>
+    <app-agregar (productoAgregado)="agregarProducto($event)"></app-agregar>
+    
+    <p class="mensaje" >{{ mensaje }}</p>
+    <button class="btnCarrito" (click)="toggleCarrito()"></button>
+    @if (mostrarCarrito) {
+    <app-cart [productos]="productos"></app-cart>
+    }
+</div>
